@@ -118,3 +118,6 @@ require('nvim-treesitter.configs').setup {
 		max_file_lines = nil,
 	}
 }
+
+local wilder = require('wilder')
+wilder.setup({modes = {':'}})

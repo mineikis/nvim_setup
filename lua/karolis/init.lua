@@ -41,9 +41,15 @@ require("lazy").setup({
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
 
-
-	{ 'rose-pine/neovim', name = 'rose-pine' },
-
+    -- Color Theme
+    { 'rose-pine/neovim', name = 'rose-pine' },
+    'voldikss/vim-floaterm',
+    {
+        'gelguy/wilder.nvim',
+        config = function()
+            -- config goes here
+        end,
+    }
 })
 
 -- Mason Setup
