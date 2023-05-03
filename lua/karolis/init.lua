@@ -49,7 +49,10 @@ require("lazy").setup({
         config = function()
             -- config goes here
         end,
-    }
+    },
+    
+    -- Git signs
+    'lewis6991/gitsigns.nvim'
 })
 
 -- Mason Setup
